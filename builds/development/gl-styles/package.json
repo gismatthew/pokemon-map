@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tileserver-gl-styles",
+        "scope": null,
+        "escapedName": "tileserver-gl-styles",
+        "name": "tileserver-gl-styles",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Matthew/Project/git/pokemon-map"
+    ]
+  ],
+  "_from": "tileserver-gl-styles@latest",
+  "_id": "tileserver-gl-styles@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tileserver-gl-styles",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/tileserver-gl-styles-0.3.0.tgz_1472039739251_0.6925996206700802"
+  },
+  "_npmUser": {
+    "name": "petrsloup",
+    "email": "petr.sloup@klokantech.com"
+  },
+  "_npmVersion": "2.15.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tileserver-gl-styles",
+    "scope": null,
+    "escapedName": "tileserver-gl-styles",
+    "name": "tileserver-gl-styles",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tileserver-gl-styles/-/tileserver-gl-styles-0.3.0.tgz",
+  "_shasum": "f323123d656fba92ea99b05194939654be831c4b",
+  "_shrinkwrap": null,
+  "_spec": "tileserver-gl-styles",
+  "_where": "/Users/Matthew/Project/git/pokemon-map",
+  "authors": [
+    "Petr Pridal <petr.pridal@klokantech.com>",
+    "Petr Sloup <petr.sloup@klokantech.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/klokantech/tileserver-gl-styles/issues"
+  },
+  "dependencies": {},
+  "description": "Default styles for TileServer-GL",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f323123d656fba92ea99b05194939654be831c4b",
+    "tarball": "https://registry.npmjs.org/tileserver-gl-styles/-/tileserver-gl-styles-0.3.0.tgz"
+  },
+  "gitHead": "d37dd46155f069bed4147c29dd829dedfaef9f0a",
+  "homepage": "https://github.com/klokantech/tileserver-gl-styles#readme",
+  "maintainers": [
+    {
+      "name": "petrsloup",
+      "email": "petr.sloup@klokantech.com"
+    }
+  ],
+  "name": "tileserver-gl-styles",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klokantech/tileserver-gl-styles.git"
+  },
+  "scripts": {},
+  "version": "0.3.0"
+}

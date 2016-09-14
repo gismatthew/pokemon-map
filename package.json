@@ -1,0 +1,39 @@
+{
+  "name": "pokemon-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "gulp",
+    "deploy": "NODE_ENV=production gulp",
+    "transit": "node get_sask_transit.js",
+    "pokemon": "node get_pokestops.js"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-select": "^1.11.2",
+    "bootstrap-toggle": "^2.2.2",
+    "gdal": "^0.9.3",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jsonminify": "^1.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jquery": "^3.1.0",
+    "jshint": "^2.9.3",
+    "lazypipe": "^1.0.1",
+    "mapbox-gl": "^0.23.0",
+    "request": "^2.74.0",
+    "tileserver-gl-styles": "^0.3.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

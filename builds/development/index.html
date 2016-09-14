@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html class="no-js" lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+  <title>Pokemon Go in Saskatoon</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="description" content="Africa Soil Database Project is an interactive web platform to visualize wealth of datasets for Africa, including general GIS layers as well as thematic soil layers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.png">
+  <link rel="apple-touch-icon-precomposed" href="img/logo.png">
+  <link rel="shortcut icon" href="img/logo.png">
+
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <div id="layout">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><input id="menu_toggle_toc" type="checkbox" data-onstyle="info"></li>
+            <li><input id="menu_toggle_gps" type="checkbox" data-onstyle="info"></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.pokemongomap.info/">Pokemon Go Map</a></li>
+                <li><a href="http://transitego.saskatoon.ca/hiwire?.a=iRealTimeDisplay">Sask Transit</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="toc">
+      <div class="group">
+        <h3>Pokemon</h3>
+        <input id="toggle_poke_stop" type="checkbox" data-onstyle="info">
+        <input id="toggle_poke_gym" type="checkbox" data-onstyle="info">
+        <label>Show Title: <input  type="checkbox" id="toggle_poke_title" data-onstyle="info"></label>
+      </div>
+      <div class="group">
+        <h3>Transit</h3>
+        Route: <select id="bus-route" data-size="6" title="Choose a route">
+        </select>
+        <!-- <input id="toggle_bus_stop" type="checkbox" data-onstyle="info"> -->
+        <label>Stop Name: <input  type="checkbox" id="toggle_bus_stop_title" data-onstyle="info"></label>
+      </div>
+    </div>
+    <div id="map"></div>
+
+    <!-- Modal message -->
+    <div class="modal" data-backdrop="static" id="modalMsg" role="dialog">
+      <div class="alert alert-warning" role="alert">Loading</div>
+    </div>
+
+    <!-- Modal dialogbox -->
+    <div class="modal" data-backdrop="static" id="modalDiag" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header header-inverse">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Header</h4>
+          </div>
+          <div class="modal-body">
+            <p></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
